@@ -68,6 +68,6 @@ const getQuestions = (from, to) => {
 };
 
 getQuestions(
-  "DataTypes_and_Variables/docs/Вопросы (GPT).md",
-  "DataTypes_and_Variables/src"
+  "Conditionals/docs/Вопросы (GPT).md",
+  "Conditionals/src"
 );
