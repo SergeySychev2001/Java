@@ -1,7 +1,7 @@
 const fs = require("fs");
 const path = require("path");
 
-const getPath = (...i) => path.join("..", ...i);
+const getPath = (...i) => path.join(...i);
 
 const getAnswer = async (prompt) => {
   const apiKey = "sk-xvZhE9znNcjEqlVKTuw2rgw7mPTFLzG8";
@@ -68,6 +68,6 @@ const getQuestions = (from, to) => {
 };
 
 getQuestions(
-  "Conditionals/docs/Вопросы (GPT).md",
-  "Conditionals/src"
+  "Functions/docs/Вопросы (GPT).md",
+  "Functions/src"
 );

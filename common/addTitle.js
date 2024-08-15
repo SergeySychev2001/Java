@@ -42,4 +42,4 @@ const addTitle = (filePath, title) => {
       });
 }
 
-parseQuestions("Basic_syntax/docs/Вопросы (GPT).md", "Basic_syntax/src")
+parseQuestions("Functions/docs/Вопросы (GPT).md", "Functions/src")
